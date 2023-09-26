@@ -1,0 +1,18 @@
+1. Explicar el ejercicio:
+    Este trabajo consiste en implementar una calculadora usando HTML, CSS y JavaScript.
+    En un principio, no funcionaba, para solucionarlo simplemente se agregaron los botones, y como funciona leyendo el valor del texto de cada botón, entonces se le asigno un valor a cada botón, y el script se encarga de decidir qué hacer en cada caso.
+
+2. ¿Que hace document.querySelector(".display"); ?
+    Toma el valor de la pantalla de la calculadora.
+
+3. ¿Que hace const buttons = document.querySelectorAll("button"); ?
+    Lee los valores de los botones que tiene la calculadora.
+
+4. ¿Qué hace buttonText = button.textContent;?
+    Guarda el valor asignado a un botón de la calculadora.
+
+5. ¿Qué hace y como funciona buttons.forEach((button) => { ...} ?
+    Realiza la acción del botón pulsado de la calculadora. Lo hace revisando cada botón hasta encontrar aquel que fue pulsado y ejecuta el codigo relacionado a el.
+
+6. ¿Qué hace y como funciona button.addEventListener("click", () => { } )?
+    Escucha cada vez que se pulsa un botón.
